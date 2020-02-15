@@ -10,7 +10,6 @@
 		434941B723F263AB007525FB /* ConnectIQ.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434941B623F263AB007525FB /* ConnectIQ.xcframework */; };
 		434941B823F263AB007525FB /* ConnectIQ.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434941B623F263AB007525FB /* ConnectIQ.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		43955C4223F24EDB008D7FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43955C4123F24EDB008D7FB7 /* AppDelegate.swift */; };
-		43955C4423F24EDB008D7FB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43955C4323F24EDB008D7FB7 /* SceneDelegate.swift */; };
 		43955C4623F24EDB008D7FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43955C4523F24EDB008D7FB7 /* ViewController.swift */; };
 		43955C4923F24EDB008D7FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43955C4723F24EDB008D7FB7 /* Main.storyboard */; };
 		43955C4B23F24EDF008D7FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43955C4A23F24EDF008D7FB7 /* Assets.xcassets */; };
@@ -35,7 +34,6 @@
 		434941B623F263AB007525FB /* ConnectIQ.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ConnectIQ.xcframework; sourceTree = "<group>"; };
 		43955C3E23F24EDB008D7FB7 /* GarminTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarminTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43955C4123F24EDB008D7FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43955C4323F24EDB008D7FB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		43955C4523F24EDB008D7FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43955C4823F24EDB008D7FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43955C4A23F24EDF008D7FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				43955C4123F24EDB008D7FB7 /* AppDelegate.swift */,
-				43955C4323F24EDB008D7FB7 /* SceneDelegate.swift */,
 				43955C4523F24EDB008D7FB7 /* ViewController.swift */,
 				43955C4723F24EDB008D7FB7 /* Main.storyboard */,
 				43955C4A23F24EDF008D7FB7 /* Assets.xcassets */,
@@ -168,7 +165,6 @@
 			files = (
 				43955C4623F24EDB008D7FB7 /* ViewController.swift in Sources */,
 				43955C4223F24EDB008D7FB7 /* AppDelegate.swift in Sources */,
-				43955C4423F24EDB008D7FB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
